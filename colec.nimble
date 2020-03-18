@@ -2,7 +2,7 @@
 
 version       = "0.1.0"
 author        = "Mina"
-description   = "Templates for terminal"
+description   = "Echo in color operators"
 license       = "MIT"
 srcDir        = "src"
 bin           = @["colec"]
