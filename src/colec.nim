@@ -19,17 +19,17 @@ const
   ansiResetCode = "\e[0m"
 
 # Foreground
-proc `@`(s: string, c: Color): string =
+proc `@`*(s: string, c: Color): string =
   let colorCode = ansiForegroundColorCode(c)
   result = colorCode & s & ansiResetCode
 
 # Background
-proc `@@`(s: string, c: Color): string =
+proc `@@`*(s: string, c: Color): string =
   let colorCode = ansiBackgroundColorCode(c)
   result = colorCode & s & ansiResetCode
 
 # Style
-proc `<<`(s: string, style: Style): string =
+proc `<<`*(s: string, style: Style): string =
   let styleCode = ansiStyleCode(style)
   result = styleCode & s & ansiResetCode
   
