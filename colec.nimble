@@ -5,8 +5,6 @@ author        = "Mina"
 description   = "Echo in color operators"
 license       = "MIT"
 srcDir        = "src"
-bin           = @["colec"]
-
 
 
 # Dependencies
