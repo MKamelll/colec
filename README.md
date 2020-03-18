@@ -25,4 +25,5 @@ echo (("The Dark Knight" @ colBlue) @@ colWhite ) << styleUnderscore
 ```
 
 [List of colors](https://nim-lang.org/docs/colors.html#Color)
+
 [List of styles](https://nim-lang.org/docs/terminal.html#Style)
